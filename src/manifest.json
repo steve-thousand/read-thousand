@@ -1,0 +1,19 @@
+{
+    "name": "Reading extension TODO",
+    "description": "Facilitate reading",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "reader": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "page_reader.js"
+            ]
+        }
+    ]
+}
