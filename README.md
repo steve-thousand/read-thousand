@@ -1,4 +1,4 @@
-# reading extension
+# read thousand
 
 Working title. This is a chrome extension for facilitating speed-reading by altering paragraphs of text, increasing the font weight of the first half of every word.
 
